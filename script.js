@@ -1,4 +1,4 @@
-const API_URL = "http://127.0.0.1:8000";
+const API_URL = "https://ai-learning-assistance-1-jyyi.onrender.com";
 
 function getAuthToken() {
     return localStorage.getItem("adaptiq_token");
@@ -1774,4 +1774,5 @@ document.addEventListener(
         }
 
     }
+
 );
